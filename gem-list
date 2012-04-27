@@ -1,0 +1,8 @@
+fpm
+sinatra
+vagrant
+rspec
+sinatra-accept-params
+daemon
+cucumber-nagios
+activerecord:3.0.9
