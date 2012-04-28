@@ -44,10 +44,10 @@ do
       RETVAL=$?
     done
   
-  	echo "Build of $basename returned with $RETVAL"
-  	echo 
-  	[ $RETVAL -ne 0 ] && exit 1
-	fi
+    echo "Build of $basename returned with $RETVAL"
+    echo 
+    [ $RETVAL -ne 0 ] && exit 1
+  fi
   
   touch $donefile  
   cd ../
